@@ -1,8 +1,5 @@
-from math import *
-from Crypto.PublicKey import RSA
-from Crypto.Util.number import *
 import gmpy2
-import sys
+
 
 def FermatFactorization(N): #N must be odd
     a = gmpy2.isqrt(N) + 1
